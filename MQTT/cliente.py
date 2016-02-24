@@ -1,3 +1,8 @@
+#instalar: mqtt para python pip install paho-mqtt
+#mqtt: sudo apt-get install mosquitto
+#      sudo apt-get install mosquitto-clients
+
+
 import paho.mqtt.client as mqtt
 
 # The callback for when the client receives a CONNACK response from the server.
